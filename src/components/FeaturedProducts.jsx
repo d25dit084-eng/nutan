@@ -65,11 +65,11 @@ export default function FeaturedProducts() {
             <h2 className="section-heading">
               Our Featured <span className="cat-text-orange">Mach</span><span className="cat-text-green">inery</span>
             </h2>
-            <p className="head-subtitle">
-              High quality, reliable and efficient machinery for your beverage business.
-              Explore our most popular products.
-            </p>
           </div>
+          <p className="head-subtitle">
+            High quality, reliable and efficient machinery for your beverage business.
+            Explore our most popular products.
+          </p>
           <a
             href="#categories"
             className="btn-view-all"

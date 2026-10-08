@@ -52,11 +52,11 @@ export default function Categories() {
             <h2 className="section-heading">
               Browse by <span className="cat-text-orange">Cat</span><span className="cat-text-green">egory</span>
             </h2>
-            <p className="head-subtitle">
-              Explore our wide range of beverage and food processing machinery designed
-              for quality, performance and long-term reliability.
-            </p>
           </div>
+          <p className="head-subtitle">
+            Explore our wide range of beverage and food processing machinery designed
+            for quality, performance and long-term reliability.
+          </p>
           <a
             href="#machinery"
             className="btn-view-all"

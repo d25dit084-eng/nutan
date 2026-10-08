@@ -48,8 +48,8 @@ export default function WhyChoose() {
   return (
     <section className="why-section" id="about" aria-label="Why Choose Nutan Soda">
       <div className="container">
-        <div className="why-banner-card">
-          {/* Left Title Block */}
+        <div className="why-row-container">
+          {/* Left Title Block outside the card */}
           <div className="why-head-column">
             <span className="why-tag">OUR ADVANTAGES</span>
             <h2 className="why-main-title">
@@ -59,8 +59,8 @@ export default function WhyChoose() {
             </h2>
           </div>
 
-          {/* Right 4 Pillars */}
-          <div className="why-pillars-grid">
+          {/* Right 4 Pillars in single white rounded card */}
+          <div className="why-banner-card">
             {WHY_ITEMS.map((item) => (
               <div className="why-pillar-item" key={item.id} id={`why-${item.id}`}>
                 <div className="why-pillar-icon-wrap" aria-hidden="true">
